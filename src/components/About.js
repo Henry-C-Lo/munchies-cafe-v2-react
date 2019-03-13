@@ -1,54 +1,125 @@
 import React from 'react'
 
+import bgCoffee from '../assets/img/about-bgCoffee.png';
+import bgPpl from '../assets/img/about-bgPpl.png';
+import bgFood from '../assets/img/about-bgFood.png';
+
 const About = () => {
     return (
-        <div>
-            <section id="about">
-                <div className="container text-center">
-                    <h2 className="display-4 py-5">About <em>MUNCHIES</em></h2>
-                    <div className="dropdown-divider w-25 d-block mx-auto"></div>
-                    <p className="text-color font-weight-light p-5">Munchies Cafe & Bistro is an elegant of the
-                        hidden city of the city, where you can order a cup of espresso or
-                        a
-                        delicious draft beer we bring to you and we bring it back from all over the world. The taste
-                        and persistence
-                        of
-                        the ingredients used in the ingredients, immersed in this comfortable and relaxing space,
-                        throwing away the
-                        pressure on the shoulders to enjoy the taste buds to satisfy the taste of life.
-
-                        We are committed to providing a comfortable and relaxing environment for everyone to enjoy
-                        while immersing
-                        themselves in a relaxed atmosphere. Munchies offer you diverse selection of red, white,
-                        sparkling wine,
-                        beer,
-                        chef carefully deployed with small point, so this weekend substantial and not regret it.
-
-                        Munchies founded by some of the restaurants full of boundless enthusiasm for people, we pay
-                        attention to
-                        food
-                        safety and hygiene and nutrition insisted on using the best raw materials, environmentally
-                        clean and care
-                        for
-                        our environment and expect to bring guests a pleasant dining environment, we expect to bring
-                        the service
-                        Guests
-                        are comfortable and welcoming.
-
-                        Aspects of our dishes with quality ingredients called boiled, with a modulation technique
-                        called creative,
-                        called a breakthrough with embellishment gives soul food, intentions materials used to make
-                        the taste more
-                        amazing first experience.</p>
-                    <p className="w-25 d-block mx-auto pb-5">
-                        <em className="key-word d-block">MUNCHIES</em>
+        <>
+            <section className="about">
+                <div className="container">
+                    <h2 className="text-center display-4 py-5 my-5">About <em>MUNCHIES</em></h2>
+                    <div className="about-text-photo row d-flex align-items-center py-3 ">
+                        <div className="col-12 text-center col-md-6 font-weight-light p-5">
+                            <ul className="list-unstyled">
+                                <li>Munchies Cafe & Bistro</li>
+                                <li>It’s an elegant glimpse of a hidden city</li>
+                                <li>&nbsp;</li>
+                                <li>Enjoy the taste that we bring back from all over the world and our insist on real
+                                    ingredients
+                                </li>
+                                <li>You can order a cup of aromatic coffee that we brew for you or a delicious draft
+                                    beer
+                                </li>
+                                <li>Immerse yourself in this comfortable and relaxing space and throw away the pressure
+                                    on your
+                                    shoulders
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>Enjoy the satisfaction of the taste buds / The feast of the senses / Taste the
+                                    attitude of life.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <img width='100%' src={bgCoffee} alt='Coffee'/>
+                        </div>
+                    </div>
+                    <div className="about-text-photo row d-flex align-items-center ">
+                        <div className="col-12 col-md-6">
+                            <img width='100%' src={bgPpl} alt="People"/>
+                        </div>
+                        <div className="col-12 col-md-6 font-weight-light p-5 my-4">
+                            <ul className="list-unstyled">
+                                <li>
+                                    We are committed to providing a comfortable and relaxing environment for everyone to
+                                    enjoy,
+                                    while enjoying the immersion in a relaxed atmosphere, and expecting any form of
+                                    dinner to become
+                                    more meaningful.
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    Our persistence is simple but not simple.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-md-6 font-weight-light p-5">
+                            <ul className="list-unstyled">
+                                <li>
+                                    Munchies originally meant "mouth", and we hope to bring all the
+                                    friends to experience the simple level and taste when they enjoy the meal.
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    For ingredients
+                                </li>
+                                <li>
+                                    We pay attention to safe and healthy nutrition and insist on using the best raw
+                                    materials.
+                                </li>
+                                <li>
+                                    For the environment
+                                </li>
+                                <li>
+                                    We care about being clean and looking forward to a pleasant dining environment.
+                                </li>
+                                <li>
+                                    For service
+                                </li>
+                                <li>
+                                    We look forward to bringing guests a relaxed atmosphere like seeing friends.
+                                </li>
+                                <li>
+                                    Cooking aspect
+                                </li>
+                                <li>
+                                    Cook with raw materials called quality,
+                                </li>
+                                <li>
+                                    Modulated by a technique called creativity,
+                                </li>
+                                <li>
+                                    Give the soul of the cooking with an embellishment called a breakthrough.
+                                </li>
+                                <li>
+                                    Use the ingredients to make the taste more amazing.
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    At MUNCHIES, you can enjoy more than just meals.
+                                </li>
+                                <li>
+                                    It is a life attitude.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <img width='100%' src={bgFood} alt="Food"/>
+                        </div>
+                    </div>
+                    <p className="key-word w-50 d-block mx-auto text-center py-5 mb-5">
+                        <em className="d-block">MUNCHIES</em>
                         offers not only food but also a
-                        <em className="key-word d-block text-capitalize">life attitude</em>
+                        <em className="d-block text-capitalize">life attitude</em>
                     </p>
                 </div>
             </section>
-        </div>
+        </>
     )
-}
+};
 
 export default About

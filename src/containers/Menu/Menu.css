@@ -1,10 +1,25 @@
-.fill-space {
-    height: 10rem;
+/*MUNCHIES COMBOS*/
+
+.combo-menu-heading {
+    margin: 10rem 0 5rem 0;
 }
 
+.combo-items {
+    height: 60rem;
+}
 
-.ts-item {
-    max-width: 28%;
+.combo-item img {
+    position: relative;
+    height: 35rem;
+    left: -50%;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.combo-item img:hover {
+    opacity: 1;
+    transform: scale(1.03)
 }
 
 .outer {
@@ -18,30 +33,54 @@
     right: -50%;
 }
 
-.ts-item h3 {
-    font-size: 1.4rem;
+.combo-item h3 {
+font-size: 1.4rem;
+margin: 1rem 0;
 }
 
-.ts-item h3, .ts-item p{
-    font-weight: 300;
-    padding-top: 1.3rem;
+.combo-item h3:after {
+content: '';
+display: block;
+margin: 0 auto;
+width: 20%;
+padding-top: 2rem;
+border-bottom: .1rem solid;
 }
 
-.ts-item img {
-    position: relative;
-    left: -50%;
-    height: 30rem;
-    opacity: 0.7;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
+/*APPETIZER*/
+
+.appetizer-menu h3,
+.appetizer-menu p {
+font-weight: 300;
 }
 
-.ts-item img:hover {
-    opacity: 1;
-    transform: scale(1.03)
+.appetizer-item {
+    padding-bottom: 5rem;
 }
 
-.combo-description {
-    height: 15rem;
+.appetizer-item img {
+width: 100%;
+position: relative;
+left: -50%;
+height: 22rem;
+opacity: 0.7;
+transform: scale(1.15);
+transition: transform 0.5s, opacity 0.5s;
+}
+
+.appetizer-item img:hover {
+opacity: 1;
+transform: scale(1.03)
+}
+
+.appetizer-menu h3 {
+height: 4rem;
+padding-top: 1rem;
+font-size: 1.3rem;
+}
+
+.appetizer-menu p {
+padding-bottom: 1.5rem;
+margin-bottom: 0;
 }
 

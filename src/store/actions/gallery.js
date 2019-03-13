@@ -1,16 +1,21 @@
 import * as actionTypes from './actionTypes';
 
-
-export const setGalleryBg = () => {
+export const initialHomeGallery = () => {
     return {
-        type: actionTypes.SET_GALLERY_BG,
-        galleryBg
+        type: actionTypes.INIT_HOME_GALLERY
     }
 };
 
-export const setGalleryBgFail = (error) => {
+export const getHomeGallery = (gallery) => {
     return {
-        type: actionTypes.SET_GALLERY_BG_FAIL,
+        type: actionTypes.GET_HOME_GALLERY,
+        gallery
+    }
+};
+
+export const getHomeGalleryFail = (error) => {
+    return {
+        type: actionTypes.GET_HOME_GALLERY_FAIL,
         error
     }
 };

@@ -1,30 +1,33 @@
 import React from 'react'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+
+import munchies from '../assets/img/munchies.jpg'
 
 const Intro = () => {
     return (
-        <div>
+        <>
             <section className="intro">
                 <div className="container">
-                    <ul className="list-group text-center font-weight-light text-color">
-                        <li className="slogan list-group-item w-50 d-block mx-auto my-5 font-weight-normal">
-                            Celebrating the
-                            <em> finest New American cuisine</em>
-                            for an exceptional and relaxed dining experience
-                            <em> near Taipei Arena</em>
+                    <ul className="my-5 py-5 text-center font-weight-light list-unstyled">
+                        <li>
+                            <FontAwesomeIcon color='orangered' icon={['fa', 'glass-cheers']} size="2x"/>
                         </li>
-                        <div className="dropdown-divider w-50 d-block mx-auto"></div>
-                        <li className="list-group-item pt-5">
-                            No. 26, Alley 5, Lane 12, Section 3, Bade Road, Songshan District, Taipei City, Taiwan
+                        <li className="row my-5 slogan font-weight-normal">
+                            <p className='col-10 col-md-6 mx-auto my-5'>
+                                Celebrating the
+                                <em>&nbsp;finest New American cuisine&nbsp;</em>
+                                for an exceptional and relaxed dining experience
+                                <em>&nbsp;near Taipei Arena</em>
+                            </p>
                         </li>
-                        <li className="list-group-item">Taipei Arena MRT station</li>
-                        <li className="list-group-item">open seven days a week</li>
-                        <li className="list-group-item">11:30am ∼ 10:00PM</li>
-                        <li className="list-group-item pb-5">02-25705508</li>
+                        <li className='pl-2'>
+                            <img height={120} src={munchies} alt='munchies'/>
+                        </li>
                     </ul>
                 </div>
             </section>
-        </div>
+        </>
     )
-}
+};
 
 export default Intro

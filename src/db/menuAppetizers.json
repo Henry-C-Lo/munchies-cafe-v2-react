@@ -2,108 +2,108 @@
   "data":[
     {
       "image": "/assets/img/crispy-fries.png",
-      "name": "Crispy Fries",
+      "itemName": "Crispy Fries",
       "description": "Garlic / Truffle Mayo",
       "price": "$180",
-      "VeganOrHot": "vegan"
+      "veganOrHot": "vegan"
     },
     {
       "image": "/assets/img/avacado-spring-rolls.png",
-      "name": "Avocado Spring Rolls",
+      "itemName": "Avocado Spring Rolls",
       "description": "",
       "price": "$180",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/beer-battered-fish-and-chips.png",
-      "name": "Beer Battered Fish & Chips",
+      "itemName": "Beer Battered Fish & Chips",
       "description": "",
       "price": "$260",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/bean-curd-popcorn-chicken.png",
-      "name": "Bean Curd Popcorn Chicken",
+      "itemName": "Bean Curd Popcorn Chicken",
       "description": "",
       "price": "$220",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/grilled-octopus-with-redwine-fennel-sauce.png",
-      "name": "Grilled Octopus With Redwine Fennel Sauce",
+      "itemName": "Grilled Octopus With Redwine Fennel Sauce",
       "description": "",
       "price": "$380",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/craft-beer-seafood-steam.png",
-      "name": "Craft Beer Seafood Steam",
+      "itemName": "Craft Beer Seafood Steam",
       "description": "",
       "price": "$360",
-      "VeganOrHot": "hot"
+      "veganOrHot": "hot"
     },
     {
       "image": "/assets/img/saute-mushroom-with-lemon.png",
-      "name": "Saute Mushroom With Lemon",
+      "itemName": "Saute Mushroom With Lemon",
       "description": "",
       "price": "$250",
-      "VeganOrHot": "hot"
+      "veganOrHot": "hot"
     },
     {
       "image": "/assets/img/cherry-duck-breast.png",
-      "name": "Cherry Duck Breast",
+      "itemName": "Cherry Duck Breast",
       "description": "",
       "price": "$240",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/vietnamese-steak-green-salad.png",
-      "name": "Vietnamese Steak Green Salad",
+      "itemName": "Vietnamese Steak Green Salad",
       "description": "",
       "price": "$380",
-      "VeganOrHot": "hot"
+      "veganOrHot": "hot"
     },
     {
       "image": "/assets/img/bacon-and-egg-salad.png",
-      "name": "Bacon & Egg Salad",
+      "itemName": "Bacon & Egg Salad",
       "description": "",
       "price": "$260",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/strawberry-frenzy-salad.png",
-      "name": "Strawberry Frenzy Salad",
+      "itemName": "Strawberry Frenzy Salad",
       "description": "",
       "price": "$320",
-      "VeganOrHot": "vegan"
+      "veganOrHot": "vegan"
     },
     {
       "image": "/assets/img/duck-conft-potato-tower.png",
-      "name": "Duck Conft Potato Tower",
+      "itemName": "Duck Conft Potato Tower",
       "description": "",
       "price": "$230",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/focaccia-with-sun-dried-tomato.png",
-      "name": "Focaccia (Sun-dried Tomato)",
+      "itemName": "Focaccia (Sun-dried Tomato)",
       "description": "",
       "price": "$180",
-      "VeganOrHot": "vegan"
+      "veganOrHot": "vegan"
     },
     {
       "image": "/assets/img/flatbread.png",
-      "name": "Flatbread",
+      "itemName": "Flatbread",
       "description": "Duck confit / Margherita / Fig(VG)",
       "price": "$260",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     },
     {
       "image": "/assets/img/tomato-soup-cappuccino.png",
-      "name": "Tomato Soup Cappuccino",
+      "itemName": "Tomato Soup Cappuccino",
       "description": "",
       "price": "$160",
-      "VeganOrHot": ""
+      "veganOrHot": ""
     }
   ]
 }

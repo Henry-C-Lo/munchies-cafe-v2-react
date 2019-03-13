@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Form, Col, InputGroup, Button} from 'react-bootstrap';
-import SimpleMap from '../../components/Map';
+import {Form, Col, Button} from 'react-bootstrap';
 
-import './Reservation.css'
+import './Reservation.css';
 
 
 class Reservation extends Component {
@@ -26,7 +25,7 @@ class Reservation extends Component {
         return (
             <div>
                 <div className='hero-reserve'></div>
-                <h2 className='text-center my-5'>Reservations</h2>
+                <h2 className='text-center text-dark my-5'>Reservations</h2>
                 <p className="d-block mx-auto w-25 text-center">
                     Welcome to use the online reservation system. We will have someone to contact you by phone after the reservation form below is submitted.
                 </p>
@@ -65,18 +64,26 @@ class Reservation extends Component {
                                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                             </Form.Group>
                             <Form.Group as={Col} md="3" controlId="validationCustom03">
-                                <Form.Group controlId="formBasicEmail">
+                                <Form.Group controlId="formBasicTel">
                                     <Form.Label>Phone</Form.Label>
-                                    <Form.Control type="tel" placeholder="Enter phone"/>
+                                    <Form.Control
+                                        required
+                                        type="tel"
+                                        placeholder="Enter phone"
+                                    />
                                     <Form.Text className="text-muted">
-                                        We'll never share your email with anyone else.
+                                        We'll never share your phone number with anyone else.
                                     </Form.Text>
                                 </Form.Group>
                             </Form.Group>
                             <Form.Group as={Col} md="3" controlId="validationCustom04">
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label>Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email"/>
+                                    <Form.Control
+                                        required
+                                        type="email"
+                                        placeholder="Enter email"
+                                    />
                                     <Form.Text className="text-muted">
                                         We'll never share your email with anyone else.
                                     </Form.Text>
@@ -86,26 +93,37 @@ class Reservation extends Component {
                         <Form.Row>
                             <Form.Group as={Col} md="3" controlId="validationCustom05">
                                 <Form.Label className>Date</Form.Label>
-                                <Form.Control type="date" placeholder="Enter date"/>
+                                <Form.Control
+                                    required
+                                    type="date"
+                                    placeholder="Enter date"
+                                />
                             </Form.Group>
                             <Form.Group as={Col} md="3" controlId="validationCustom06">
                                 <Form.Label className>Time</Form.Label>
-                                <Form.Control type="time" placeholder="Enter time"/>
+                                <Form.Control
+                                    required
+                                    type="time"
+                                    placeholder="Enter time"
+                                />
                                 <Form.Text className="text-muted">
                                     Reservation window: 11:30 ~ 19:45
                                 </Form.Text>
                             </Form.Group>
                             <Form.Group as={Col} md='6' controlId="exampleForm.ControlTextarea1">
                                 <Form.Label>Special Request</Form.Label>
-                                <Form.Control as="textarea" rows="1" width='30'/>
+                                <Form.Control
+                                    as="textarea"
+                                    rows="1"
+                                    width='30'
+                                />
                                 <Form.Text className="text-muted">
                                     We will try our best to accommodate your requests in best possible way
                                 </Form.Text>
                             </Form.Group>
                         </Form.Row>
-                        <Button type="submit" className='btn btn-secondary d-block mx-auto my-4'>Submit form</Button>
+                        <Button type="submit" className='d-block mx-auto my-4'>Submit form</Button>
                     </Form>
-                    <SimpleMap />
                 </div>
             </div>
         )
