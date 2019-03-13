@@ -1,0 +1,44 @@
+{
+    "data":[
+        {
+            "chineseTitle": "肋眼牛排佐歐芹醬",
+            "englishTitle": "Ribeye Steak with Chimichurri Sauce",
+            "backgroundClass": "meal-bg-1"
+        },
+        {
+            "chineseTitle": "特製戰斧牛排",
+            "englishTitle": "Tomahawk Steak",
+            "backgroundClass": "meal-bg-2"
+        },
+        {
+            "chineseTitle": "鹽釜烤鮮魚",
+            "englishTitle": "Salt Crust Fish Bake",
+            "backgroundClass": "meal-bg-3"
+        },
+        {
+            "chineseTitle": "酥炸軟殼蟹蒜香辣椒義大利麵",
+            "englishTitle": "Spicy Soft Shell Crap Linguini",
+            "backgroundClass": "meal-bg-4"
+        },
+        {
+            "chineseTitle": "野生明蝦南瓜海鮮湯",
+            "englishTitle": "Pumpkin Seafood Soup with Wild Prawn",
+            "backgroundClass": "meal-bg-5"
+        },
+        {
+            "chineseTitle": "乾煎水蜜桃羽衣甘藍沙拉",
+            "englishTitle": "Kale & Peach Salad",
+            "backgroundClass": "meal-bg-6"
+        },
+        {
+            "chineseTitle": "香煎櫻桃鴨胸義大利陳醋醬",
+            "englishTitle": "Cherry Valley Duck with Balsamic Reduction",
+            "backgroundClass": "meal-bg-7"
+        },
+        {
+            "chineseTitle": "松露野菇燉飯搭法國牛肝蕈及日本鮮干貝",
+            "englishTitle": "Truffle Mushroom Risotto with Scallop",
+            "backgroundClass": "meal-bg-8"
+        }
+    ]
+}

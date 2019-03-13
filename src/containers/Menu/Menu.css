@@ -1,0 +1,47 @@
+.fill-space {
+    height: 10rem;
+}
+
+
+.ts-item {
+    max-width: 28%;
+}
+
+.outer {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.inner {
+    display: inline-block;
+    position: relative;
+    right: -50%;
+}
+
+.ts-item h3 {
+    font-size: 1.4rem;
+}
+
+.ts-item h3, .ts-item p{
+    font-weight: 300;
+    padding-top: 1.3rem;
+}
+
+.ts-item img {
+    position: relative;
+    left: -50%;
+    height: 30rem;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.ts-item img:hover {
+    opacity: 1;
+    transform: scale(1.03)
+}
+
+.combo-description {
+    height: 15rem;
+}
+

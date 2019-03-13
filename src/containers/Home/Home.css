@@ -1,0 +1,217 @@
+/*HELPER CLASS*/
+em {
+    font-style: normal;
+    color: orangered;
+}
+
+.text-color {
+    color: #555;
+}
+
+
+/*GENERAL*/
+html,
+body {
+    font-family: lato, sans-serif;
+}
+
+/*NAV SECTION*/
+.main-nav {
+    background-color: rgba(53, 53, 53, 0.8);
+    transition:top .5s;
+}
+
+.nav-link:hover {
+    color: orangered!important;
+    transition: .5s;
+}
+
+.nav-link:hover:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: -15rem;
+    border-bottom: .1rem solid orangered;
+}
+
+.hide {
+    top: -100%;
+}
+
+/*HERO SECTION*/
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/img/hero.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    padding: 30rem 0;
+}
+
+
+/*INTRO SECTION*/
+header {
+    opacity: 0.5;
+}
+
+.slogan {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.intro li {
+    border: none;
+}
+
+
+/*GALLERY*/
+.gallery {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal {
+    color: white;
+    background-color: transparent;
+    border: .1rem solid #858585;
+    height: 25rem;
+    width: 25%;
+}
+
+/*THEME BUTTON AND BG-RENDER*/
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: orangered;
+    border-color: orangered;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.meal-bg-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-3.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-4.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-5{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-5.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-6{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-6.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-7{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-7.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.meal-bg-8{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/meal-8.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/*STORY*/
+
+.about p{
+    font-size:1.2rem;
+    line-height: 1.8rem
+}
+
+.key-word {
+    font-size: 1.8rem;
+}
+
+
+/*TESTINONIALS*/
+
+.testimonials {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/hero2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+
+}
+
+.testimonials h2 {
+    padding-bottom: 5rem;
+}
+
+.testimonials img {
+    height: 6rem;
+}
+
+.testimonials blockquote {
+    font-size: 1.2rem;
+    line-height: 1.8rem
+}
+
+.testimonials blockquote:before {
+    content: "\201C";
+    font-size: 6rem;
+}
+
+.testimonials a {
+    color: white;
+    text-decoration: none;
+}
+
+.testimonials cite:hover {
+    color: orangered;
+    transition: 1s;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #363636;
+}
+
+.social-icon {
+    color: orangered;
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.fb:hover {
+    color: #3b5998;
+    transition: 1s;
+}
+
+.ig:hover {
+    color: #517fa4;
+    transition: 1s;
+}
+
+.yp:hover {
+    color: #d32323;
+    transition: 1s;
+}
+
+.copy-right {
+    background-color: orangered;
+    opacity: 0.8;
+}

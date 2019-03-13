@@ -1,0 +1,2 @@
+export const SET_GALLERY_BG = 'SET_GALLERY_BG';
+export const SET_GALLERY_BG_FAIL = 'SET_GALLERY_BG_FAIL';
